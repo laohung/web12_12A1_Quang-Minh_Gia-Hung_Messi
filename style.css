@@ -1,0 +1,23 @@
+/* Google Fonts - Import ở đây hoặc link trong HTML đều được, để trong HTML tốt hơn cho hiệu năng tải trang */
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+/* Tùy chỉnh màu sắc chủ đạo theo áo Argentina/Miami */
+.messi-blue {color: #fff!important; background-color: #6CACE4!important}
+.messi-pink {color: #000!important; background-color: #F890C2!important}
+.messi-dark {color: #fff!important; background-color: #000!important}
+
+/* Hiệu ứng ảnh */
+.img-zoom:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+/* Sửa lỗi hiển thị trên mobile */
+@media (max-width: 600px) {
+    .w3-row-padding .w3-third {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
